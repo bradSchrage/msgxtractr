@@ -59,7 +59,7 @@ extern void *memmove (void *, const void*, size_t);
 #  include <sys/stat.h>
 #endif
 
-extern char* xstrdup (const char* str);
+//extern char* xstrdup (const char* str);
 
 /* ********** SIZES ********** */
 
