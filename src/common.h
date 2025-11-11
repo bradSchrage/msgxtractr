@@ -59,7 +59,7 @@ extern void *memmove (void *, const void*, size_t);
 #  include <sys/stat.h>
 #endif
 
-//extern char* xstrdup (const char* str);
+extern char* xstrdup (const char* str);
 
 /* ********** SIZES ********** */
 
@@ -87,7 +87,7 @@ typedef unsigned long  uint32;
 
 /* ********** REPLACED FUNCS ********** */
 #if !HAVE_DECL_BASENAME
-extern char *basename (char *path);
+//extern char *basename (char *path);
 #endif
 
 /* ********** REPLACED FUNCS ********** */
